@@ -69,3 +69,12 @@ CLI flags for balance, positions, and open orders
 Exception handling for invalid input, API errors, and network failures
 
 Deliverables
+
+
+
+##### NOTE #####
+This project does **not** include any hard-coded API keys, secrets, or credentials.  
+All sensitive information (such as Binance API keys) should be managed securely using environment variables (".env" file) and never committed to the repository.  
+
+The ".env.example" file is provided as a template to show the required variables without exposing real values.  
+Please create your own `.env` file locally and keep it private.
